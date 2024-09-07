@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin: ['http://localhost:5173','https://talaentify.vercel.app','https://talentify-frontend-mgye3hej9-sudhanshu-kumars-projects-d9bf5a86.vercel.app/'],
+    origin: ['http://localhost:5173','https://talaentify.vercel.app','https://talentify-nine.vercel.app'],
     credentials: true
 };
 app.use(cors(corsOptions));
